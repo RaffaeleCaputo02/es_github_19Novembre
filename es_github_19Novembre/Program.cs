@@ -11,6 +11,8 @@ namespace es_github_19Novembre
         static void Main(string[] args)
         {
             int a = int.MaxValue;
+            //le due righe di codice seguenti stampano il massimo valore rappresentabile con 32 bit
+            // e stampano il relativo complemento a 1 
             Console.WriteLine(a);
             Console.WriteLine(a + 1);
             int b = -128;
